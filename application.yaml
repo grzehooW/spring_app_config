@@ -11,7 +11,8 @@ eureka:
 feign:
   client:
     config:
-      airport-service: PRODUCT_SERVICE/product
+      airport-service: 
+        name: PRODUCT_SERVICE/product
       
 okta:
   oauth2:
